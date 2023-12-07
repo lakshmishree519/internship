@@ -13,6 +13,7 @@ Algorithm:
 step1:Removing spacing at the end and biginning of string using trim method.
 step2:Creating an array of string using spit meyhod
 step 3: extracting the length of the last element of arrray
+
  expalnation:
 Storing each word of string in array and then extracting length of last element.
 
@@ -83,11 +84,13 @@ code:
     }
     return rev_s.substring(0,s.length()-p[l.length()-1])+s;
 }
+
 Algorithm:
 step1:find the longestpalindrom s+rev_s
 step2:Find suffix(rev_s) which is longest prefix(s)
 step3:Remove the longest suffix from rev_s
 step4:appending remaining string in rev_s [rev_s-suffix(rev_s)]+s
+
 expalnation:
 We can construct the following string and run KMP algorithm on it:
 (s) + (some symbol not present in s) + (reversed string)
