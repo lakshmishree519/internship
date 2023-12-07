@@ -1,7 +1,5 @@
 Easy 3:
 code:
-import java.util.*;
-
 public class LastWord {
     public void length(String str){
         String nstr = str.trim();
